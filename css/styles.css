@@ -3,7 +3,7 @@
 /* custom font */
 @font-face {
   font-family: "Iosevka Comfy";
-  src: url(./fonts/iosevka-comfy-normalregularupright.ttf);
+  src: url(../fonts/iosevka-comfy-normalregularupright.ttf);
 }
 
 /* General Styling */
@@ -93,7 +93,8 @@ body {
 /* Box Content */
 .box-content {
   font-size: 1.2em;
-  margin-top: 0px;
+  margin-top: -20px;
+  margin-bottom:-20px;
   color: #cdd6f4;
 }
 
@@ -146,3 +147,24 @@ body {
     margin-top: -10px; /* Add some space below the ASCII art */
 }
 
+/* Link color settings */
+
+a:link {
+  color: lightblue;
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+
+/* padding for paragraphs and lists */
+p + ul {
+    margin-bottom: 10;
+    margin-top: -10px;
+}
